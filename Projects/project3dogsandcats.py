@@ -24,6 +24,19 @@ if answer== "A":
 elif answer== "B":  
     cat_points += 1             
 
+# question 4:
+answer = input("Are you A) a person that talks a lot, or B) a person that doesn't talk a lot?")
+if answer== "A":
+    dog_points += 1
+elif answer== "B":  
+    cat_points += 1     
+
+# question 5:
+answer = input("Are you A) a person that plays sports, or B) a person that doesn't like sports?")
+if answer== "A":
+    dog_points += 1
+elif answer== "B":  
+    cat_points += 1     
 
 # End: Determine results
 if dog_points > cat_points:
