@@ -18,7 +18,7 @@ for i in range(6):
     else:
         output += "⬛"
     
-    # Second letter (in python, counting starts at 1 not 2)
+    # First letter (in python, counting starts at 1 not 2)
     if guess_word[1] == hidden_word[1]:
         output += "🟩"
     elif guess_word[1] in hidden_word:
@@ -26,7 +26,7 @@ for i in range(6):
     else:
         output += "⬛"
 
-# Third letter (in python, counting starts at 2 not 3)
+# First letter (in python, counting starts at 2 not 3)
     if guess_word[2] == hidden_word[2]:
         output += "🟩"
     elif guess_word[2] in hidden_word:
@@ -34,7 +34,7 @@ for i in range(6):
     else:
         output += "⬛"
 
-# Fourth letter (in python, counting starts at 3 not 4)
+# First letter (in python, counting starts at 3 not 4)
     if guess_word[3] == hidden_word[3]:
         output += "🟩"
     elif guess_word[3] in hidden_word:
@@ -42,7 +42,7 @@ for i in range(6):
     else:
         output += "⬛"
         
-        # Fifth letter (in python, counting starts at 4 not 5)
+        # First letter (in python, counting starts at 4 not 5)
     if guess_word[4] == hidden_word[4]:
         output += "🟩"
     elif guess_word[4] in hidden_word:
