@@ -38,10 +38,10 @@ t4 = create_sprite("sodacan",x4,y4)
 
 # # Section 4 - Racing
 # # TODO - set how much each variable changes by and increase the number of repeats to at least 30
-# # TODO - explain here which sprites are faster or slower
+# # TODO - explain here which sprites are faster or slower: Sprite 2 is the fastest out of the 4 because it has the highest range of speed from the code. And then sprite number 1 is the second fastest because it can go from 8-15 in the code which usually has the sprite second in races. third is sprit 4 because the code range is 7-14 and sprite 3's range is 4-8 in line 45 which mostly has the sprite finish last in the race.
 for i in range(30):
-	x1 += random.randint(5,15)
-	x2 += random.randint(3,20)
+	x1 += random.randint(8,15)
+	x2 += random.randint(9,20)
 	x3 += random.randint(4,8)
 	x4 += random.randint(7,14)
 	t1.goto(x1, y1)
